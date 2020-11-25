@@ -99,6 +99,8 @@ def word2vec_to_nonbinary(w2v_binary, output):
 /home/zz/Work/data/embeddings/wop/desc_skip.vec
 '''
 if __name__ == "__main__":
+    word2vec_to_nonbinary(sys.argv[1],sys.argv[2])
+    exit(0)
 
     glove_2_wrd2vec(sys.argv[1],sys.argv[2])
     exit(0)
